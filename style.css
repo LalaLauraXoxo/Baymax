@@ -1,0 +1,164 @@
+body {
+    background-color: #FF0000;
+    align-items: center;
+}
+
+h1{
+  text-align: center;
+  top: 75px;
+  color: #fff;
+}
+.baymax {
+    display: flex;
+    justify-content: center;
+    
+    > div {
+      margin-top: 100px;
+    }
+  }
+  
+.bhead {
+ 
+    position: absolute;
+    background: white;
+    width: 90px;
+    height: 60px;
+    border-radius: 89%;
+    left: 165px;
+    box-shadow: 0 -15px 30px rgba(23,34,45,0.2) inset , 0 5px 15px rgba(23,34,45,0.3)
+
+}
+
+.blefteye {
+  position: absolute;
+  background: black;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  top: 89px;
+  left: 182px;
+  z-index: 30;
+  box-shadow: 30px;
+  animation: blink 1s infinite;
+}
+
+.brighteye {
+  position: absolute;
+  background: black;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  top: 89px;
+  left: 225px;
+  z-index: 30;
+  box-shadow: 30px;
+  animation: blink 1s infinite;
+}
+
+.bmouth {
+  width:35px;
+  height:1.5px;
+  background:#282828 ;
+  position:absolute;
+  left:190px;
+  top:94px;
+}
+
+.bbody{
+  position: absolute;
+  height:110px;
+  width:140px;
+  background:#fff;
+  border-radius:50%;
+  z-index:-1;
+  left: 140px;
+  top: 105px;
+  box-shadow: 0 -15px 30px rgba(23,34,45,0.2) inset ,
+}
+
+.bbelly{
+  position: absolute;
+  height:280px;
+  width:230px;
+  background:#fff;
+  border-radius:50%;
+  z-index:-2;
+  left: 95px;
+  top: 113px;
+  box-shadow: 0 -15px 30px rgba(23,34,45,0.2) inset , 0 5px 15px rgba(23,34,45,0.3)
+}
+
+.blefthand {
+  position:absolute;
+  height:210px;
+  width:80px;
+  border-radius:50%;
+  background:#fff;
+  z-index: -3;
+  top:110px;
+  left:85px;
+  transform: rotate(35deg);
+  box-shadow: 0 -15px 30px rgba(23,34,45,0.2) inset , 0 5px 15px rgba(23,34,45,0.3)
+}
+
+.blefthand {
+  position:absolute;
+  height:210px;
+  width:80px;
+  border-radius:50%;
+  background:#fff;
+  z-index: -3;
+  top:110px;
+  left:85px;
+  transform: rotate(35deg);
+  box-shadow: 0 -15px 30px rgba(23,34,45,0.2) inset , 0 5px 15px rgba(23,34,45,0.3)
+}
+
+.brighthand {
+  position:absolute;
+  height:210px;
+  width:80px;
+  border-radius:50%;
+  background:#fff;
+  z-index: -3;
+  top:110px;
+  left:260px;
+  transform: rotate(-35deg);
+  box-shadow: 0 -15px 30px rgba(23,34,45,0.2) inset , 0 5px 15px rgba(23,34,45,0.3)
+}
+
+.bleftleg {
+  position:absolute;
+  height:210px;
+  width:75px;
+  border-radius:30%;
+  background:#fff;
+  z-index: -3;
+  top:240px;
+  left:130px;
+  box-shadow: 0 -15px 30px rgba(23,34,45,0.2) inset , 0 5px 15px rgba(23,34,45,0.3)
+}
+
+.brightleg {
+  position:absolute;
+  height:210px;
+  width:75px;
+  border-radius:30%;
+  background:#fff;
+  z-index: -3;
+  top:240px;
+  left:210px;
+  box-shadow: 0 -15px 30px rgba(23,34,45,0.2) inset , 0 5px 15px rgba(23,34,45,0.3)
+}
+
+
+
+@keyframes blink {
+  50%, 51% {
+   transform: scaleY(0);
+ }
+ 0%, 29%, 100% {
+   transform: scaleY(1);
+ }
+}
+
